@@ -1,4 +1,4 @@
-package com.aerokube.selenoid;
+package com.aerokube.moon;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
