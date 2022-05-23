@@ -10,9 +10,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.HasDevTools;
 import org.openqa.selenium.devtools.NetworkInterceptor;
-import org.openqa.selenium.devtools.v95.log.Log;
-import org.openqa.selenium.devtools.v95.runtime.Runtime;
-import org.openqa.selenium.devtools.v95.network.Network;
+import org.openqa.selenium.devtools.v99.log.Log;
+import org.openqa.selenium.devtools.v99.runtime.Runtime;
+import org.openqa.selenium.devtools.v99.network.Network;
 import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.remote.http.HttpResponse;
@@ -34,7 +34,7 @@ class DevtoolsTest {
     @BeforeEach
     void setUp() throws Exception {
         ChromeOptions capabilities = new ChromeOptions();
-        capabilities.setBrowserVersion("95.0");
+        capabilities.setBrowserVersion("99.0");
         driver = new RemoteWebDriver(new URL("https://username:password@my-company.cloud.aerokube.com/wd/hub"), capabilities);
         driver = new Augmenter().augment(driver);
     }
