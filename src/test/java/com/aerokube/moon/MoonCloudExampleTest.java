@@ -21,7 +21,7 @@ class MoonCloudExampleTest {
     @BeforeEach
     void setUp() throws Exception {
         ChromeOptions capabilities = new ChromeOptions();
-        capabilities.setCapability("browserVersion", "92.0");
+        capabilities.setCapability("browserVersion", "118.0");
 //        capabilities.setCapability("moon:options", Map.of(
 //                "enableVideo", true,
 //                "enableVNC", true,
