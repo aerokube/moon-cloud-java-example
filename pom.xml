@@ -10,7 +10,7 @@
 
     <properties>
         <java.version>1.11</java.version>
-        <selenium.version>4.10.0</selenium.version>
+        <selenium.version>4.11.0</selenium.version>
         <junit-jupiter.version>5.8.2</junit-jupiter.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <slf4j-log4j12.version>1.7.36</slf4j-log4j12.version>
@@ -31,7 +31,7 @@
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-devtools-v112</artifactId>
+            <artifactId>selenium-devtools-v113</artifactId>
             <version>${selenium.version}</version>
             <scope>test</scope>
         </dependency>
